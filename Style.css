@@ -48,7 +48,7 @@ body {
 }
 
 .card {  
-    height: 300px;
+    height: cover;
     width: 90%;
     border-radius: 5px;
     margin-bottom: 25px !important;
@@ -56,6 +56,9 @@ body {
     padding: 8px;
     background-color: rgb(58, 14, 97);
     box-shadow: 0px 0px 10px; 
+}
+.nav-link {
+    color: white !important;
 }
 
 .card-text {
@@ -78,7 +81,7 @@ body {
 .git-container {   
     justify-content: center;
     align-content: center;
-    text-align: center;
+    text-align: center; 
 }
 
 .git-image {
@@ -208,4 +211,17 @@ hr {
 .footer img{
     height: 24px;
     width: 24px;
+}
+.contact {
+    background-color: rgb(92, 65, 14);
+}
+.contact h1{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+i {
+    color: rgb(249, 248, 250);
+    font-size: 40px;
 }
