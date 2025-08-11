@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(11, 60, 56);
+}
+
+.nav-image img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+}
+ 
+.navbar-button {
+    margin: 10px !important;
+}
+
+.nav-item { 
+    color: white !important; 
+}
+.nav-item img{
+    height: 30px;
+    width: 30px;
+}
+.navbar-bg {
+    background-color: rgb(11, 60, 56);
+    border: 1px solid gray;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+.projects-div {
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.projects-div h1 {
+    font-size: 28px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card {  
+    height: 300px;
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 25px !important;
+    color: white;
+    padding: 8px;
+    background-color: rgb(58, 14, 97);
+    box-shadow: 0px 0px 10px; 
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.card-text p {
+    font-style: italic;
+}
+
+.card-text h1 {
+    font-size: 18px;
+}
+
+.date {
+    margin-top: -12px;
+    font-size: 12px;
+}
+
+.git-container {   
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.git-image {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    padding: 2px;
+}
+
+.git-live {
+    text-align: center;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.git-live p {
+    color: white;
+    text-decoration: None;
+    font-size: 12px;
+}
+
+.vertical-line {
+    border-left: 1px solid white;
+    height: 40px;
+}
+
+.languages-use h1 {
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.language-image {
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    padding: 2px;
+}
+
+.language-div {
+    margin-left: 10px;
+}
+
+.language p {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.language {
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ 
+.introduction h1 {
+    font-size: 22px;
+}
+.introduction p {
+    font-size: 18px;
+}
+.details {
+    padding: 20px;
+    color: white;
+
+}
+
+hr {
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+ 
+.certifications {
+    color: WHITE;
+    margin: 30px;
+}
+.certifications-card {
+    border: 2px solid rgb(170, 255, 0);
+    border-radius: 10px;
+    color: black;
+    height: cover;
+    width: 300px;
+    background-color: rgb(231, 237, 243);
+}
+.certifications-card p {
+    margin: 10px;
+}
+.certifications img {
+    padding: 0px;
+    height: 180px;
+    width: 100%;
+}  
+.anchor-for-like {
+    margin: 10px;
+    border: 0px ; 
+}
+.anchor-for-like img { 
+    height: 20px;
+    width: 20px;
+}
+.like-para {
+    margin-top: -10px !important;
+}
+.coment {
+    text-align: center;
+}
+ 
+.credentials-para {
+    text-decoration: none;
+    color: black; 
+    font-size: 13px;
+}
+.credentials img{ 
+    height: 15px;
+    width: 15px;
+}
+.credentials {
+    margin-left: 20px ;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footer img{
+    height: 24px;
+    width: 24px;
+}
