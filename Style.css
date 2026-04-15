@@ -321,6 +321,11 @@ a:hover {
     gap: 0.75rem;
 }
 
+.project-tag-label {
+    font-weight: 700;
+    color: #3c2b69;
+}
+
 .project-tags span {
     color: #695ea6;
     font-size: 0.9rem;
