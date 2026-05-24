@@ -381,13 +381,48 @@ a:hover {
     height: 240px;
     overflow: hidden;
     position: relative;
+    background: linear-gradient(135deg, rgba(157, 108, 255, 0.08) 0%, rgba(90, 43, 255, 0.12) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
+.project-card:hover .project-image-wrapper {
+    background: linear-gradient(135deg, rgba(157, 108, 255, 0.12) 0%, rgba(90, 43, 255, 0.18) 100%);
+}
+
+.project-image-wrapper::before {
+    content: "\f03e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 2.8rem;
+    color: rgba(157, 108, 255, 0.25);
+    transition: transform 0.4s ease, color 0.4s ease;
+    position: absolute;
+    z-index: 0;
+}
+
+.project-card:hover .project-image-wrapper::before {
+    transform: scale(1.1) rotate(-3deg);
+    color: rgba(157, 108, 255, 0.4);
 }
 
 .project-image-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
     transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.project-image-wrapper img[src=""],
+.project-image-wrapper img:not([src]) {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .project-card:hover .project-image-wrapper img {
