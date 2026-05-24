@@ -17,7 +17,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 90px;
+    scroll-padding-top: 30px;
 }
 
 body {
@@ -308,6 +308,7 @@ a:hover {
     .skills-categories-grid {
         grid-template-columns: 1fr;
     }
+
     .skills-category-card {
         padding: 1.4rem;
     }
@@ -357,8 +358,8 @@ a:hover {
     background: #ffffff;
     border: 1px solid rgba(157, 108, 255, 0.1);
     transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+        border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     display: flex;
     flex-direction: column;
 }
