@@ -719,3 +719,24 @@ a:hover {
         border-radius: 22px;
     }
 }
+
+.certification-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.no-cred-info {
+    font-size: 0.78rem;
+    color: #8c83a7;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.25rem;
+}
+
+.no-cred-info i {
+    color: #9d8cff;
+}
