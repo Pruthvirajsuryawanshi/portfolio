@@ -738,12 +738,98 @@ a:hover {
 }
 
 .footer {
-    padding: 2rem 0;
-    color: var(--muted);
+    background: #140d2b;
+    color: #a499c5;
+    padding: 4.5rem 0 2rem 0;
+    border-top: 1px solid rgba(157, 108, 255, 0.15);
 }
 
-.footer p {
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(164, 153, 197, 0.12);
+}
+
+.footer-brand {
+    max-width: 400px;
+}
+
+.footer-brand h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.footer-brand p {
+    font-size: 0.88rem;
+    color: #8c80ad;
+    line-height: 1.6;
     margin: 0;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    color: #a499c5;
+    font-weight: 600;
+    font-size: 0.88rem;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #9d8cff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+.footer-bottom p {
+    font-size: 0.82rem;
+    color: #726792;
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.footer-socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(157, 108, 255, 0.08);
+    border: 1px solid rgba(157, 108, 255, 0.15);
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.footer-socials a:hover {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
+    color: #ffffff;
+    border-color: transparent;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(109, 90, 255, 0.25);
 }
 
 @media (max-width: 991px) {
@@ -780,6 +866,23 @@ a:hover {
     .certification-card,
     .contact-card {
         border-radius: 22px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 0.85rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1.25rem;
     }
 }
 
